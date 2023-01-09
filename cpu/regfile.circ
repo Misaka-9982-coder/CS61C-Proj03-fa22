@@ -281,7 +281,7 @@
       <a name="facing" val="east"/>
       <a name="label" val="RegWEn"/>
     </comp>
-    <comp lib="0" loc="(1270,1310)" name="Tunnel">
+    <comp lib="0" loc="(1270,1330)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="WriteIndex"/>
       <a name="width" val="5"/>
@@ -1517,7 +1517,7 @@
     <wire from="(120,980)" to="(140,980)"/>
     <wire from="(1230,120)" to="(1230,240)"/>
     <wire from="(1270,1140)" to="(1300,1140)"/>
-    <wire from="(1270,1310)" to="(1320,1310)"/>
+    <wire from="(1270,1330)" to="(1320,1330)"/>
     <wire from="(130,1000)" to="(130,1010)"/>
     <wire from="(130,1000)" to="(140,1000)"/>
     <wire from="(130,1020)" to="(130,1040)"/>
@@ -1550,7 +1550,7 @@
     <wire from="(130,890)" to="(140,890)"/>
     <wire from="(130,910)" to="(130,930)"/>
     <wire from="(130,910)" to="(140,910)"/>
-    <wire from="(1320,1300)" to="(1320,1310)"/>
+    <wire from="(1320,1300)" to="(1320,1330)"/>
     <wire from="(1330,380)" to="(1360,380)"/>
     <wire from="(1330,480)" to="(1360,480)"/>
     <wire from="(1340,1000)" to="(1370,1000)"/>
