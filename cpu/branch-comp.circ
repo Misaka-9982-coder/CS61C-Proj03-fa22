@@ -107,12 +107,12 @@
     <comp lib="0" loc="(250,310)" name="Tunnel">
       <a name="label" val="BrUn"/>
     </comp>
-    <comp lib="0" loc="(500,140)" name="Tunnel">
+    <comp lib="0" loc="(500,120)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="BrData1"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(500,180)" name="Tunnel">
+    <comp lib="0" loc="(500,190)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="BrData2"/>
       <a name="width" val="32"/>
@@ -174,15 +174,13 @@
     <wire from="(250,180)" to="(250,230)"/>
     <wire from="(250,270)" to="(250,290)"/>
     <wire from="(250,330)" to="(250,340)"/>
-    <wire from="(500,140)" to="(520,140)"/>
-    <wire from="(500,180)" to="(530,180)"/>
-    <wire from="(520,120)" to="(520,140)"/>
+    <wire from="(500,120)" to="(520,120)"/>
+    <wire from="(500,190)" to="(530,190)"/>
+    <wire from="(520,120)" to="(520,170)"/>
     <wire from="(520,120)" to="(550,120)"/>
-    <wire from="(520,140)" to="(520,170)"/>
     <wire from="(520,170)" to="(550,170)"/>
-    <wire from="(530,140)" to="(530,180)"/>
+    <wire from="(530,140)" to="(530,190)"/>
     <wire from="(530,140)" to="(550,140)"/>
-    <wire from="(530,180)" to="(530,190)"/>
     <wire from="(530,190)" to="(550,190)"/>
     <wire from="(590,130)" to="(680,130)"/>
     <wire from="(590,140)" to="(610,140)"/>
