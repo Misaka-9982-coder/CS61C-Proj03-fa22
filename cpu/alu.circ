@@ -291,10 +291,6 @@
       <a name="out_width" val="5"/>
       <a name="type" val="input"/>
     </comp>
-    <comp lib="0" loc="(440,390)" name="Probe">
-      <a name="appearance" val="classic"/>
-      <a name="radix" val="16"/>
-    </comp>
     <comp lib="0" loc="(460,270)" name="Bit Extender">
       <a name="in_width" val="1"/>
       <a name="out_width" val="32"/>
@@ -530,10 +526,6 @@
       <a name="bit9" val="0"/>
       <a name="incoming" val="64"/>
     </comp>
-    <comp lib="0" loc="(740,430)" name="Probe">
-      <a name="appearance" val="classic"/>
-      <a name="radix" val="16"/>
-    </comp>
     <comp lib="0" loc="(780,150)" name="Tunnel">
       <a name="label" val="MUL8"/>
       <a name="width" val="32"/>
@@ -684,11 +676,9 @@
     <wire from="(430,500)" to="(470,500)"/>
     <wire from="(430,580)" to="(470,580)"/>
     <wire from="(440,350)" to="(470,350)"/>
-    <wire from="(440,390)" to="(470,390)"/>
     <wire from="(450,190)" to="(470,190)"/>
     <wire from="(450,420)" to="(470,420)"/>
     <wire from="(460,270)" to="(470,270)"/>
-    <wire from="(470,390)" to="(470,420)"/>
     <wire from="(620,150)" to="(630,150)"/>
     <wire from="(620,210)" to="(630,210)"/>
     <wire from="(620,270)" to="(630,270)"/>
@@ -722,10 +712,7 @@
     <wire from="(730,180)" to="(740,180)"/>
     <wire from="(730,300)" to="(740,300)"/>
     <wire from="(730,390)" to="(780,390)"/>
-    <wire from="(730,470)" to="(750,470)"/>
-    <wire from="(740,430)" to="(750,430)"/>
-    <wire from="(750,430)" to="(750,470)"/>
-    <wire from="(750,470)" to="(780,470)"/>
+    <wire from="(730,470)" to="(780,470)"/>
     <wire from="(760,170)" to="(770,170)"/>
     <wire from="(760,180)" to="(780,180)"/>
     <wire from="(760,300)" to="(780,300)"/>
