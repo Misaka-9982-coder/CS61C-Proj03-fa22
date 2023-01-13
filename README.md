@@ -1,11 +1,36 @@
 # CS61CPU
 
-Look ma, I made a CPU! Here's what I did:
+I made a CPU! Here's what I did:
 
 - An ALU unit
 
-  ![image-20230110002124458](https://cdn.jsdelivr.net/gh/Misaka-9982-coder/img_hosting/img/image-20230110002124458.png)
+  ![alu](./img/alu.jpg)
 
 - An register file
 
-  ![image-20221119144434167](https://cdn.jsdelivr.net/gh/Misaka-9982-coder/img_hosting/img/image-20221119144434167.png)
+  ![reg](./img/reg.jpg)
+  
+- A branch comparator
+
+  ![branch_comp](./img/branch_comp.jpg)
+
+- A control logic unit
+
+  ![control logic unit](./img/control.jpg)
+
+- A immediate number generator
+
+  ![](./img/imm_gen.jpg)
+
+- A Dmem Loader
+
+  ![](./img/load.jpg)
+
+- A Dmem Storer
+
+  ![](./img/store.jpg)
+
+Linker these units together
+
+![](./img/cpu.jpg)
+
