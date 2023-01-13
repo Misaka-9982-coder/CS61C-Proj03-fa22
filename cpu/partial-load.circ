@@ -150,6 +150,11 @@
       <a name="label" val="Data_31_16"/>
       <a name="width" val="16"/>
     </comp>
+    <comp lib="0" loc="(510,870)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="DataFromMem"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(530,200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Instruction"/>
@@ -477,6 +482,10 @@
       <a name="label" val="LH_Data"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(770,870)" name="Tunnel">
+      <a name="label" val="LW_Data"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(870,170)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="DataToReg"/>
@@ -507,7 +516,7 @@
     </comp>
     <comp lib="0" loc="(990,560)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="DataFromMem"/>
+      <a name="label" val="LW_Data"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="2" loc="(1060,450)" name="Multiplexer">
@@ -569,6 +578,7 @@
     <wire from="(510,780)" to="(530,780)"/>
     <wire from="(510,810)" to="(540,810)"/>
     <wire from="(510,840)" to="(550,840)"/>
+    <wire from="(510,870)" to="(770,870)"/>
     <wire from="(530,200)" to="(550,200)"/>
     <wire from="(530,260)" to="(550,260)"/>
     <wire from="(530,350)" to="(550,350)"/>
