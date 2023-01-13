@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.8.0-61c.4eeb8df" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v3.8.0-61c.4eeb8df(https://github.com/61c-teach/logisim-evolution).
+<project source="3.8.0-61c.07e32fb" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0-61c.07e32fb(https://github.com/61c-teach/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -171,7 +171,7 @@
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(1630,980)" name="Constant">
-      <a name="value" val="0x9"/>
+      <a name="value" val="0x8"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(1750,970)" name="Pin">
@@ -315,7 +315,7 @@
       <a name="addrWidth" val="14"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 14 32
-100493 fff00413 100413 840463 100413 100413 200413
+100493 200913 948463 100413 100413 200413
 </a>
       <a name="dataWidth" val="32"/>
     </comp>
